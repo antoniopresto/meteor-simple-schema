@@ -1,4 +1,4 @@
-import SimpleSchema, { ValidationContext } from 'simpl-schema';
+import SimpleSchema, { ValidationContext } from 'mongo-simple-schema';
 import { ValidationError } from 'meteor/mdg:validation-error';
 
 // Convert the vanilla Error into a Meteor.Error until DDP is able to pass
