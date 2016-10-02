@@ -1,12 +1,12 @@
 Package.describe({
-  name: "aldeed:simple-schema",
+  name: "antoniopresto:simple-schema",
   summary: "A simple schema validation package with reactivity. Used by collection2 and autoform.",
-  version: "2.0.0-rc.1",
+  version: "2.0.0-rc2",
   git: "https://github.com/aldeed/meteor-simple-schema.git"
 });
 
 Npm.depends({
-  'simpl-schema': '0.0.3'
+  'mongo-simple-schema': '0.0.4-rc.1'
 });
 
 Package.onUse(function(api) {
